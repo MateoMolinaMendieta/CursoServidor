@@ -14,24 +14,12 @@ server.listen(3000, function(){
 
 });
 
-function login(parametro, Hola){ 
-	for (var i =  5; i >= 0; i--) {
-		console.log(parametro+Hola)
-	}
-}
-
-login("hola ", "como estas")
-
-
 function suma(parametro,Numero){
 	var total =0;
 	var suma = parametro + Numero;
 	for (var i = 5; i >= 0; i--) {
-		console.log(suma);
-		//total=(total=((parametro+Numero)*i))
 		total = total + suma;
-		console.log(total);
-	}
-	
+	}	
+	return total;
 }
 
